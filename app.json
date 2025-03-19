@@ -3,7 +3,7 @@
     "name": "fuzed-case",
     "slug": "fuzed-case",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -23,6 +23,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ]
   }
 }
