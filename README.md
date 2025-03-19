@@ -38,6 +38,7 @@ This application is built with React Native with Expo to provide real-time pose 
 ## Future Improvements
 
 - Introduce comprehensive unit and integration tests (Jest, React Native Testing Library).
+- Create E2E tests using Detox.
 - Test app on more physical devices.
 - Optimize tensor processing and memory management for better performance.
 - Add error boundaries and improved error handling for a more robust application.
