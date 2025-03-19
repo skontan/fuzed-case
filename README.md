@@ -8,7 +8,7 @@ This application is built with React Native with Expo to provide real-time pose 
 
 1. Install dependencies:
    ```
-   npm install
+   npm install --force
    ```
 2. Start the Expo server:
    ```
@@ -25,6 +25,7 @@ This application is built with React Native with Expo to provide real-time pose 
 - Split code into reusable components to improve maintainability.
 - Lacking error handling due to time constaints.
 - Only focused on iOS when coding.
+- Decided to use latest version of Expo and Expo-Camera, even though there are some compatability issues with @tensorflow/tfjs-react-native still. This is why we need to npm install using --force.
 
 ## Quality Assurance
 
